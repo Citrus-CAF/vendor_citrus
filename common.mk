@@ -187,7 +187,7 @@ ifneq ($(TARGET_BUILD_VARIANT),eng)
 ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=1
 endif
 
-PLATFORM_SECURITY_PATCH := 2017-10-05
+PLATFORM_SECURITY_PATCH := 2017-11-06
 
 # Recommend using the non debug dexpreopter
 USE_DEX2OAT_DEBUG ?= false
