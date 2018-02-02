@@ -263,10 +263,14 @@ ifneq ($(WITH_CUSTOM_CHARGER),false)
 PRODUCT_PACKAGES += \
     charger_res_images \
     custom_charger_res_images \
-    font_log.png \
+    font_log.png \àaXmm
     libhealthd.custom
 endif
 
 PRODUCT_PACKAGES += \
    OmniStyle \
    OmniJaws
+
+# SubstratumService
+PRODUCT_PACKAGES += SubstratumService
+PRODUCT_SYSTEM_SERVER_APPS += SubstratumService
