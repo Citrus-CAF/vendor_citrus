@@ -1,3 +1,6 @@
+# Allow vendor/extra to override any property by setting it first
+$(call inherit-product-if-exists, vendor/extra/product.mk)
+
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
@@ -216,9 +219,6 @@ PRODUCT_COPY_FILES += \
     vendor/citrus/prebuilt/common/lib64/libjni_latinime.so:system/lib64/libjni_latinime.so \
     vendor/citrus/prebuilt/common/lib64/libjni_latinimegoogle.so:system/lib64/libjni_latinimegoogle.so
 endif
-
-# include extra product makefile if exists
-$(call inherit-product-if-exists, vendor/extra/product.mk)
 
 # include sounds from pixel
 $(call inherit-product-if-exists, vendor/citrus/google/sounds/PixelSounds.mk)
