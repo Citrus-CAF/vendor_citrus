@@ -267,7 +267,7 @@ PRODUCT_PACKAGES += \
     MusicFX \
     CitrusHeaders \
     Calendar \
-    FirefoxRocket
+    FirefoxLite
 
 # DU Utils Library
 #PRODUCT_PACKAGES += \
