@@ -277,8 +277,8 @@ PRODUCT_PACKAGES += \
     org.dirtyunicorns.utils
 
 PRODUCT_PACKAGES += \
-   OmniJaws
-#   OmniStyle \
+   OmniJaws \
+   OmniStyle
 
 # TCP Connection Management
 PRODUCT_PACKAGES += tcmiface
