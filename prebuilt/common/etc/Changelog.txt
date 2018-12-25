@@ -1,0 +1,6 @@
+#1 Tue, 25-12-2018
+==================
+• Initial Android Pie 9.0 Public Release
+• Source based on LA.UM.7.3.r1-06600-sdm845.0 CAF tag
+• Margarita: Initial Android Pie support
+• Ship with Firefox Lite as default browser
