@@ -194,7 +194,7 @@ PRODUCT_PACKAGES += \
     librsjni
 
 # Themes
-#PRODUCT_PACKAGES += \
+PRODUCT_PACKAGES += \
     Margarita
 
 # Substratum
